@@ -19,7 +19,7 @@
 
 ### 🚀 Основной pet-проект
 
-#### 📡 [Price Radar](https://github.com/IliaBurlakov/PriceRadar)
+#### 📡 [Price Radar](https://github.com/IliaBurlakov/price-radar)
 
 **Backend-сервис для мониторинга цен на маркетплейсах.**
 
@@ -48,7 +48,7 @@
 * 🌍 Цена отслеживается в рамках выбранного **региона**
 * 🛒 Поддерживается **импорт товаров из корзины Wildberries**
 
-[![Repository](https://img.shields.io/badge/GitHub-Посмотреть_проект-181717?style=flat-square&logo=github)](https://github.com/IliaBurlakov/PriceRadar)
+[![Repository](https://img.shields.io/badge/GitHub-Посмотреть_проект-181717?style=flat-square&logo=github)](https://github.com/IliaBurlakov/price-radar)
 ---
 
 ### 🛠️ Технологический стек
