@@ -1,10 +1,10 @@
-<h1 align="center">Привет, я Илья 👋</h1>
-
-<h3 align="center">Java Backend Developer · студент ФИТ НГУ</h3>
+<h1 align="center">Илья Бурлаков</h1>
 
 <p align="center">
-Разрабатываю backend-приложения на Java и Spring Boot.<br>
-Интересуюсь проектированием backend-систем, реляционными БД, транзакциями и надежной интеграцией с внешними API.
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Java+Backend+Developer;Spring+Boot+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker;NSU+FIT+Student"
+    alt="Typing SVG"
+  />
 </p>
 
 ---
