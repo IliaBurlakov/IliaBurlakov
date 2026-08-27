@@ -13,7 +13,7 @@
 
 * 🎓 Студент 4 курса **НГУ ФИТ**, направление — **"Программная инженерия и компьютерные науки"**
 * ☕ Основной фокус — **Java Backend:** Java, Spring Boot, PostgreSQL, REST API, Docker
-* 🏦 Являюсь **лаборантом СберЛаб НГУ**, дважды участвовал в летней школе  (2025, 2026)
+* 🏦 **Лаборант СберЛаб НГУ**; дважды участвовал в летней школе (2025, 2026), где работал в команде над production проектом
 * 💼 Открыт к **стажировкам и Junior Java Backend позициям**
 
 ---
@@ -87,11 +87,16 @@
 
 ### 📂 Другие проекты
 
-#### RestStock Backend
+#### 📦 [RestStock](https://github.com/IliaBurlakov/reststock-back)
 
-Backend-часть учебного fullstack-проекта.
+**Система для управления складом ресторана**, разработанная в рамках дисциплины «Объектно-ориентированный анализ и дизайн».
 
-[![Repository](https://img.shields.io/badge/GitHub-reststock--back-181717?style=flat-square\&logo=github)](https://github.com/IliaBurlakov/reststock-back)
+В проекте реализованы учёт поставок и списаний, работа с партиями товаров и FIFO-списанием, управление блюдами и ингредиентами, заявки на закупку, ролевой доступ и журнал складских операций.
+
+`Java 21` · `Spring Boot` · `Spring Security` · `Spring Data JPA` · `MySQL` · `React` · `Docker`
+
+[![Backend](https://img.shields.io/badge/GitHub-Backend-181717?style=flat-square\&logo=github)](https://github.com/IliaBurlakov/reststock-back)
+[![Frontend](https://img.shields.io/badge/GitHub-Frontend-181717?style=flat-square\&logo=github)](https://github.com/IliaBurlakov/reststock-front)
 
 ---
 
