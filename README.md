@@ -17,7 +17,7 @@
 
 ---
 
-### 🚀 Основной pet-проект
+### 🚀 Основной проект
 
 #### 📡 [Price Radar](https://github.com/IliaBurlakov/price-radar)
 
@@ -95,6 +95,14 @@ Backend-часть учебного fullstack-проекта.
 
 ### 🌐 Связь со мной
 
-[![Telegram](https://img.shields.io/badge/Telegram-@iliaburlakov23-26A5E4?style=flat-square\&logo=telegram\&logoColor=white)](https://t.me/iliaburlakov23)
-[![Gmail](https://img.shields.io/badge/Gmail-iliaburlakov23-EA4335?style=flat-square\&logo=gmail\&logoColor=white)](mailto:iliaburlakov23@gmail.com)
-[![VK](https://img.shields.io/badge/VK-Илья_Бурлаков-0077FF?style=flat-square\&logo=vk\&logoColor=white)](https://vk.ru/id534837260)
+<p align="left">
+  <a href="https://t.me/iliaburlakov23">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+  <a href="https://vk.ru/id534837260">
+    <img src="https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white" alt="VK"/>
+  </a>
+  <a href="mailto:iliaburlakov23@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+</p>
