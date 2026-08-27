@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Java+Backend+Developer;Spring+Boot+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker;NSU+FIT+Student"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Java+Backend+Developer;Spring+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker;NSU+FIT+Student"
     alt="Typing SVG"
   />
 </p>
@@ -11,22 +11,21 @@
 
 ### 👨‍💻 Обо мне
 
-* 🎓 Студент 4 курса **ФИТ НГУ**
-* ☕ Основной фокус — **Java Backend**
-* 🧩 Работаю с **Spring Boot, PostgreSQL, REST API и Docker**
-* 🏗️ Интересуюсь backend-архитектурой, транзакциями, concurrency и reliability
+* 🎓 Студент 4 курса **ФИТ НГУ**, направление — **"Программная инженерия и компьютерные науки"**
+* ☕ Основной фокус — **Java Backend:** Java, Spring Boot, PostgreSQL, REST API, Docker
 * 💼 Открыт к **стажировкам и Junior Java Backend позициям**
-* 📡 Сейчас готовлю к публичной публикации свой основной pet-project — **PriceRadar**
 
 ---
 
-### 🚀 Основной проект
+### 🚀 Основной pet-проект
 
-#### 📡 PriceRadar
+#### 📡 [Price Radar](https://github.com/IliaBurlakov/PriceRadar)
 
-**Telegram-бот и backend-сервис для мониторинга цен Wildberries.**
+**Backend-сервис для мониторинга цен на маркетплейсах.**
 
-Пользователь добавляет товар, выбирает регион и условие отслеживания, после чего PriceRadar периодически проверяет цену и уведомляет о достижении заданной цены или появлении нового минимума.
+Сейчас Price Radar работает с **Wildberries**. Пользователь добавляет товар, выбирает регион и условие отслеживания, после чего сервис периодически проверяет цену и уведомляет о достижении заданного значения или появлении новой минимальной цены за период отслеживания.
+
+Взаимодействие с пользователем построено через **Telegram-бота**.
 
 **Основной стек**
 
@@ -39,20 +38,17 @@
 ![JUnit](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square\&logo=junit5\&logoColor=white)
 ![Testcontainers](https://img.shields.io/badge/Testcontainers-3E8EDE?style=flat-square\&logo=testcontainers\&logoColor=white)
 
-**Что интересного внутри:**
+**Главное о проекте:**
 
-* 🧱 **Modular monolith** с разделением на `domain`, `application` и `infrastructure`
-* 🎯 Разделение **WatchTarget** и **Subscription** — одна физическая проверка товара может использоваться несколькими подписками
-* ⏱️ Scheduler проверяет только targets, для которых наступил `next_check_at`, после чего snapshot обрабатывается всеми связанными subscriptions
-* 📨 **Transactional Outbox** отделяет бизнес-транзакцию от доставки уведомления в Telegram
-* 🔁 **At-least-once delivery**, retry и idempotency для обработки временных и неоднозначных сетевых ошибок
-* 🔒 Защита от stale/out-of-order данных и конкурентных изменений
-* 🤖 Интеграция с **Telegram Bot API** через Java `HttpClient` и long polling без Telegram SDK
-* 🛒 Импорт товаров из shared basket Wildberries через изолированный infrastructure adapter
-* 📊 Хранение price snapshots и построение статистики по истории текущего отслеживания
+* 🎯 **Одна проверка цены может обслуживать множество пользователей.** Если несколько человек отслеживают один и тот же товар в одинаковом ценовом контексте, Price Radar не делает отдельный запрос к маркетплейсу для каждого пользователя
+* 🧩 **Архитектура не привязана к конкретному маркетплейсу.** Для основной системы маркетплейс представлен через отдельный интерфейс, поэтому поддержку новых площадок можно добавлять отдельными интеграциями без переписывания бизнес-логики
+* 🧱 Проект построен как **modular monolith**: предметные области разделены внутри одного приложения
+* 🛡️ Система устойчива к **нестабильности внешних API и сети**: временные ошибки не приводят к потере важных уведомлений
+* 📊 Price Radar хранит историю наблюдений, поэтому может показывать **минимальную цену, изменение стоимости и статистику за период отслеживания**
+* 🌍 Цена отслеживается в рамках выбранного **региона**
+* 🛒 Поддерживается **импорт товаров из корзины Wildberries**
 
-> Репозиторий пока приватный. После финального security-аудита и feature freeze он будет опубликован здесь.
-
+[![Repository](https://img.shields.io/badge/GitHub-Посмотреть_проект-181717?style=flat-square&logo=github)](https://github.com/IliaBurlakov/PriceRadar)
 ---
 
 ### 🛠️ Технологический стек
